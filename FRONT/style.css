@@ -1,0 +1,30 @@
+    @import url('https://googleapis.com');
+
+
+body {
+    background-color: #333333; /* Black background */
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: #def8e4; 
+    text-shadow: 0 0 5px #def8e4; /* Adds a glow effect */
+}
+
+#monitorInput {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 10px;
+    color: #ffffff; /* White text */
+  background-color: #333333; /* Dark background */
+  border: none;
+  outline: none;
+
+  /* Adds a CRT-style glow */
+  text-shadow: 0 0 5px #def8e4;
+  
+  /* Additional terminal styling */
+  padding: 20px;
+  line-height: 1.2;
+}
